@@ -1,0 +1,40 @@
+body{
+  background: lightgray
+}
+
+.container{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px 100px;
+  margin: 10%;
+}
+
+.item{
+  border-radius: 5px;
+  background-color: antiquewhite;
+  text-align: center;
+
+}
+
+.item1{
+  grid-column: 1/ span 2;
+  grid-row: 1/ span 2 ;
+  background-color: #bdecd3;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: 1fr 1fr;
+  padding: 30px;
+}
+.item1 > .pos1{
+  background: blue;
+  color: white;
+  padding: 20px;
+  border-radius:50%
+  
+}
+
+.item6{
+  grid-column: 3/ span 1;
+  grid-row: 3/ span 2 
+}
